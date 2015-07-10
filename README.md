@@ -60,7 +60,7 @@ catch (const std::exception& e)
 
 # Performance
 
-Inspired by rapidjson, EasyJSON use a custom allocator to dramatically speed up the parsing process. It's approximately 6x faster than dropbox's json11, and it took only 1.4 second for EzJSON to build complete AST for a very large (185MB) JSON file. 
+Inspired by rapidjson, EasyJSON use a custom allocator to dramatically speed up the parsing process. It's approximately 6x faster than dropbox's json11, and it took only 1.4 second for EasyJSON to build complete AST for a very large (185MB) JSON file. 
 
 ## About
 
